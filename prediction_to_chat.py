@@ -6,7 +6,7 @@ import matplotlib.image as mpimg
 import telebot
 import json
 from pathlib import Path
-from xgb import XGBRegressor
+from xgboost import XGBRegressor
 
 
 file_path = Path('data/crypto_data.pkl')
